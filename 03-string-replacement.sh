@@ -24,3 +24,4 @@ else
         sed -i "s/FOO/BAR/g" $file
         echo -e "$GREEN Strings replaced $NC"
     done
+fi
