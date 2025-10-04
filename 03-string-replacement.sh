@@ -12,7 +12,7 @@ NC="\e[0m"
 
 read -p "Enter directory here: " Directory
 
-FILES=$(find -type f -name "*.conf" $Directory)
+FILES=$(find $Directory -type f -name "*.conf")
 
 if [ -z $FILES ]
 then
