@@ -12,7 +12,7 @@
 # Non-existent file
 # Permission denied
 
-read -p "Enter your filename here: " $filename
+read -p "Enter your filename here: " filename
 
 # Check if the file exist or not
 if [ ! -e $filename ]
