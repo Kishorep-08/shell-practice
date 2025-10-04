@@ -34,9 +34,9 @@ if [ ! -s $filename ]
 then
     echo "File is empty: $filename"
 else
-    lines=$(wc -l < $filename)
-    words=$(wc -w < $filename)
-    characters=$(wc -m < $filename)
+    lines=$(wc -l < "$filename")
+    words=$(wc -w < "$filename")
+    characters=$(wc -m < "$filename")
 
     echo "File= $filename"
     echo "No. of lines= $lines"
